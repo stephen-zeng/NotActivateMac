@@ -146,12 +146,6 @@
     NSString *title = NSLocalizedString(@"TITLE", @"");
     NSString *description = NSLocalizedString(@"DESCRIPTION", @"");
     
-    // check if running macOS ventura and newer, and if so use the ventura
-    // description string
-    NSOperatingSystemVersion venturaVersion = {.majorVersion = 13, .minorVersion = 0, .patchVersion = 0};
-    BOOL useSystemSettings = [NSProcessInfo.processInfo isOperatingSystemAtLeastVersion:venturaVersion];
-    if (useSystemSettings) { description = NSLocalizedString(@"DESCRIPTION_VENTURA", @""); }
-    
     // check if screen height is larger than 1500px
     if (self.bounds.size.height > 1500) {
 //        NSLog(@"%f", self.bounds.size.height);

@@ -1,3 +1,2 @@
-TITLE = "macOS のライセンス認証";
-DESCRIPTION = "システム環境設定を開き、macOSのライセンス認証を行ってください";
-DESCRIPTION_VENTURA = "システム環境設定を開き、macOSのライセンス認証を行ってください";
+TITLE = "macOSは常にアクティベートされています";
+DESCRIPTION = "macOSをアクティベートする必要は一度もありません :)";

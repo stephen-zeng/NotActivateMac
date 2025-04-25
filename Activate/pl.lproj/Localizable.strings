@@ -1,3 +1,2 @@
-TITLE = "Aktywuj system macOS";
-DESCRIPTION = "Przejdź do ustawień, aby aktywować system macOS.";
-DESCRIPTION_VENTURA = "Przejdź do ustawień, aby aktywować system macOS.";
+TITLE = "macOS jest zawsze aktywowany";
+DESCRIPTION = "Nigdy nie musisz aktywować macOS :)";
